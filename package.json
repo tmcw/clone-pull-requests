@@ -1,19 +1,29 @@
 {
   "name": "clone-pull-requests",
-  "version": "1.0.0",
   "description": "clone all pull requests from one repository to another",
-  "main": "index.js",
+  "version": "1.0.0",
+  "author": "Tom MacWright",
   "bin": {
     "clone-pull-requests": "./index.js"
   },
-  "author": "Tom MacWright",
-  "license": "ISC",
   "dependencies": {
     "bole": "^2.0.0",
     "ghauth": "^2.0.0",
     "parse-link-header": "^0.2.0",
-    "request": "^2.53.0",
     "queue-async": "^1.0.7",
+    "request": "^2.53.0",
     "yargs": "^3.5.4"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "prs",
+    "pull-request"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmcw/clone-pull-requests.git"
   }
 }
