@@ -1,0 +1,19 @@
+{
+  "name": "clone-pull-requests",
+  "version": "1.0.0",
+  "description": "clone all pull requests from one repository to another",
+  "main": "index.js",
+  "bin": {
+    "clone-pull-requests": "./index.js"
+  },
+  "author": "Tom MacWright",
+  "license": "ISC",
+  "dependencies": {
+    "bole": "^2.0.0",
+    "ghauth": "^2.0.0",
+    "parse-link-header": "^0.2.0",
+    "request": "^2.53.0",
+    "queue-async": "^1.0.7",
+    "yargs": "^3.5.4"
+  }
+}
