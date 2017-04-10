@@ -7,12 +7,12 @@
     "clone-pull-requests": "./index.js"
   },
   "dependencies": {
-    "bole": "^2.0.0",
-    "ghauth": "^2.0.0",
-    "parse-link-header": "^0.2.0",
+    "bole": "^3.0.2",
+    "ghauth": "^3.2.1",
+    "parse-link-header": "^0.4.1",
     "queue-async": "^1.0.7",
     "request": "^2.53.0",
-    "yargs": "^3.5.4"
+    "yargs": "^7.0.2"
   },
   "keywords": [
     "git",
