@@ -1,5 +1,7 @@
 # clone-pull-requests
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/clone-pull-requests.svg)](https://greenkeeper.io/)
+
 Given a source repository and a destination repository, both on GitHub,
 take all PRs on the source and recreate them on the destination.
 
